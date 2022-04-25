@@ -536,3 +536,26 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+.footer{
+    height: 80px;
+    background: #000;
+    margin-top: 50px;
+}
+
+.footer__list{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer__link{
+    color: white;
+    text-decoration: none;
+}
